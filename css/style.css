@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  line-height: 1.4;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 3rem 1rem;
+  overflow: hidden;
+}
+
+#main-header .logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#main-header .first-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 301px;
+  height: 301px;
+  background: url('../img/794CAC7D-71A9-4556-AD02-439C1E02EBD7_1_105_c.jpeg') no-repeat center center/cover;
+}
+
+#main-header h1 {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+#main-header p {
+  text-align: center;
+  color: grey;
+  padding-bottom: 1rem;
+}
+
+#main-header .social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#main-header .social a i {
+  padding: 0 1rem;
+  color: #333;
+}
+
+#references h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#references .box img {
+  width: 220px;
+  height: 220px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#references .box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+#references .box-1 {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+#references .box-2 {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+#references .box-3 {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+#article {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#article h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog {
+  width: 49%;
+  float: left;
+}
+
+.my-links {
+  width: 49%;
+  float: right;
+}
+
+.blog-1 {
+  width: 450px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2rem 1rem;
+}
+
+.blog-1 img {
+  width: 30%;
+  height: 100%;
+  float: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.blog-1 .blog-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
